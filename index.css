@@ -2,12 +2,14 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: serif;
+    font-family: sans-serif;
 }
 
 main{
     width: 90%;
     margin: 0 auto;
+    padding: 20px 0;
+    text-align: justify;
 }
 
 h1, h2{
@@ -16,5 +18,13 @@ h1, h2{
 
 article,p{
     font-size: 20px;
+    line-height: 25px;
+    fo
 
+}
+
+@media(width < 650px){
+    h1{
+        font-size: 20px;
+    }
 }
